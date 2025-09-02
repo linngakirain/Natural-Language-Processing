@@ -7,7 +7,7 @@ function App() {
     <>
       <Routes>
         <Route element={<SpeechLayout />}>
-          <Route path="/" element={<SpeechRecognitionPage />}></Route>
+          <Route path="/*" element={<SpeechRecognitionPage />}></Route>
         </Route>
       </Routes>
     </>
